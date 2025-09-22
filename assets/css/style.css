@@ -411,6 +411,13 @@ body {
     color: var(--secondary-color);
 }
 
+/* Hide published dates in blog metadata (listing and post pages) */
+.post-meta time,
+.blog-post-content .post-meta time,
+.blog-post-page .post-meta time {
+    display: none;
+}
+
 .post-category {
     background-color: var(--light-accent);
     padding: 0.25rem 0.75rem;
